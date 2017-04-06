@@ -1,0 +1,53 @@
+﻿2/18/2017
+-Changed the "Edit Stream" form to use the twitch api to get a list of streams you follow and also add/remove them from that list
+-Changed all the "Add" stream buttons to add to the twitch following list instead of the text file
+-Converted everything to use Twitch API Version 5
+2/17/2017
+-Changed from using a text file to get list of streams to using the follow list from twitch instead
+2/07/2017
+-Added a "Featured" form
+2/06/2017
+-Changed the nofitycation image to something different
+12/07/2016
+-Added a function to copy the title of a stream
+10/30/2016
+-Changed from livestreamer to streamlink.
+-Settings now open up the INI file instead of built in GUI
+9/24/2016
+-Fixed a bug with the program not saving history
+9/15/2016
+-Added the new stupid twitch Client-ID header to get the API to work
+9/14/2016
+-Added outh token when opening up twitch streams
+6/29/2016
+-Changed the code in the chat form so when twitch updates the API chat can continue to work fine
+-Fixed a bug when using the "View Games" form to load the correct streams when using the next and previous buttons
+3/3/2016
+-Added a new chat client using WPF
+2/15/2016
+-Fixed an issue with the chat because twitch added a mod function in the raw IRC message
+-Changed the font in the notify form to a defualt windows font instead
+2/13/2016
+-Changed the background art on the notify form
+2/4/2016
+-When loading non twitch streams now it saves to the history and is able to open from their as well
+11/18/2015
+-Added a form to allow watching non twitch.tv streams
+9/28/2015
+-Added an option to cache the emotes so you don't have to download them everytime
+-Added a hotkey in the main form (ALT+O) to open up the working directory of the application
+-Removed the "/mod" command from chat as it was no longer needed with the improvements to chat
+9/24/2015
+-Added support for emotes in the chat
+-Added "Display Emote" option in the settings to turn chat emotes on/off
+9/23/2015
+-Added IRC v3 to chat to use username colors, and badges (sub, broadcaster, mod, etc...)
+-Removed "/price" option in chat
+7/1/2015
+-Added "/price" option in chat
+6/29/2015
+-Added support for scrolling through streams after selecting a game name from the "View Games" form
+-Fixed bugs when searching for a game in the "View Games" form and added supported to scroll through the streams if there was more then 25
+-Added a "Copy URL" link when right clicking on the main form to copy the twitch URL of the selected stream
+-Removed "Use VLC" from the settings form as it was no longer needed
+-Changed the History form to not allow duplicates anymore
