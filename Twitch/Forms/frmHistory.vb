@@ -29,7 +29,7 @@
             liveStreamerProcess.StartInfo.WindowStyle = ProcessWindowStyle.Hidden
             liveStreamerProcess.StartInfo.CreateNoWindow = True
             liveStreamerProcess.StartInfo.FileName = StreamlinkPath
-            liveStreamerProcess.StartInfo.Arguments = "--twitch-oauth-token g8g9r67c5yvm0v5h7tw4tjmswibjb6 twitch.tv/" & PubCurrentStreamer & " Best" & " --player=" & """" & VLCPath
+            liveStreamerProcess.StartInfo.Arguments = "twitch.tv/" & PubCurrentStreamer & " Best" & " --player=" & """" & VLCPath
         End If
 
         Dim t As New Threading.Thread(AddressOf OpenTwitchStream)
